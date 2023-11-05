@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".No_Internet">
+
+    <RelativeLayout
+        android:id="@+id/noInternetLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/no_internet_image"
+            android:layout_width="367dp"
+            android:layout_height="284dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="21dp"
+            android:layout_marginTop="82dp"
+            android:layout_marginEnd="22dp"
+            android:src="@drawable/nube"
+            android:contentDescription="@string/No_internet" />
+
+        <TextView
+            android:id="@+id/no_internet_heading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/no_internet_image"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="63dp"
+            android:text="@string/tu_dispositivo_no_tiene_conexi_n_a_internet"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/no_internet_text"
+            android:layout_width="wrap_content"
+            android:layout_height="76dp"
+            android:layout_below="@id/no_internet_heading"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/revisa_la_conexi_n_a_internet_de_tus_dispositivo_e_intenta_de_nuevo"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:layout_marginStart="43dp"
+            android:layout_marginEnd="43dp"/>
+
+        <Button
+            android:id="@+id/try_again_button"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/no_internet_text"
+            android:layout_marginTop="20dp"
+            android:text="@string/reintentar"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            android:layout_marginStart="43dp"/>
+
+        <Button
+            android:id="@+id/button_copy"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/no_internet_text"
+            android:layout_marginTop="20dp"
+            android:text="Copiar id"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:layout_toEndOf="@+id/try_again_button"
+            android:layout_marginHorizontal="16dp" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

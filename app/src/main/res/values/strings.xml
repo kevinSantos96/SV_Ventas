@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">SIV Móvil HN</string>
+    <string name="obteniendo_id">Obteniendo ID...</string>
+    <string name="verificando_sophos_guard">Verificando Sophos Guard</string>
+    <string name="acceder">Acceder</string>
+    <string name="bac_logo">Bac Logo</string>
+    <string name="verificando_sophos">Verificando Sophos...</string>
+    <string name="device_name">Device Name</string>
+    <string name="textview">TextView</string>
+    <string name="dispositivo_no_autorizado">Dispositivo no autorizado</string>
+    <string name="versi_n_1_0">V.1.2</string>
+    <string name="v_1_1">V. 1.1</string>
+    <string name="v_1_2">V.1.2</string>
+    <string name="no_autorizado">No Autorizado</string>
+    <string name="v_1_7">V.1.7</string>
+    <string name="v_1_8">V.1.8</string>
+    <string name="v_1_9">V.1.9</string>
+    <string name="x">X</string>
+    <string name="todo">TODO</string>
+    <string name="v_2_0">V.2.0</string>
+    <string name="v_2_1">V.2.1</string>
+    <string name="v_2_2">V.2.2</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="reintentar">Reintentar</string>
+    <string name="revisa_la_conexi_n_a_internet_de_tus_dispositivo_e_intenta_de_nuevo">Revisa la conexión a internet de tus dispositivo e intenta de nuevo en 20 segundos</string>
+    <string name="tu_dispositivo_no_tiene_conexi_n_a_internet">Tu Dispositivo no tiene conexión a internet</string>
+    <string name="No_internet">No_internet_img</string>
+    <string name="v_2_3">V.2.3</string>
+    <string name="v_2_4">V.2.4</string>
+    <string name="logo">logo</string>
+    <string name="piramid">piramid</string>
+    <string name="v_2_5">V.2.5</string>
+    <string name="v_2_6">V.2.6</string>
+
+
+</resources>
